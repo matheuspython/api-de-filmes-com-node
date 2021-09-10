@@ -1,9 +1,9 @@
 {
   "name": "api-de-filmes-com-node",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "dev": "nodemon src/server.js",
+    "dev": "nodemon app.js",
     "start": "node app"
   },
   "repository": "https://github.com/matheuspython/api-de-filmes-com-node",
@@ -11,9 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
+    "express": "^4.17.1",
     "nodemon": "^2.0.12"
   }
 }
